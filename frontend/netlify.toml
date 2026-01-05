@@ -1,0 +1,25 @@
+[build]
+  # Build command to create production build
+  command = "npm run build"
+  
+  # Directory where the built files will be located
+  publish = "build"
+  
+  # Node version to use
+  [build.environment]
+    NODE_VERSION = "18"
+
+# Redirect all routes to index.html for React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and CORS
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
