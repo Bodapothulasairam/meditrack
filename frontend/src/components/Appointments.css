@@ -1,0 +1,54 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.appointments-list {
+  margin-top: 20px;
+}
+
+.appointment-card {
+  margin-bottom: 20px;
+}
+
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.status-badge {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-scheduled {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.status-confirmed {
+  background-color: #28a745;
+  color: white;
+}
+
+.status-completed {
+  background-color: #6c757d;
+  color: white;
+}
+
+.status-cancelled {
+  background-color: #dc3545;
+  color: white;
+}
+
+.appointment-details p {
+  margin: 8px 0;
+  color: #666;
+}

@@ -1,0 +1,43 @@
+.notifications-list {
+  margin-top: 20px;
+}
+
+.notification-card {
+  margin-bottom: 15px;
+  border-left: 4px solid #ddd;
+}
+
+.notification-card.unread {
+  border-left-color: #007bff;
+  background-color: #f0f8ff;
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.notification-message {
+  color: #666;
+  margin: 10px 0;
+}
+
+.notification-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #999;
+}
+
+.notification-type {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 14px;
+}

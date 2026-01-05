@@ -1,0 +1,54 @@
+.lab-results-list {
+  margin-top: 20px;
+}
+
+.lab-result-card {
+  margin-bottom: 20px;
+}
+
+.lab-result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.lab-result-details p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.results-data {
+  margin-top: 15px;
+}
+
+.results-data pre {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+.status-badge {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-pending {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.status-completed {
+  background-color: #28a745;
+  color: white;
+}
+
+.status-abnormal {
+  background-color: #dc3545;
+  color: white;
+}
